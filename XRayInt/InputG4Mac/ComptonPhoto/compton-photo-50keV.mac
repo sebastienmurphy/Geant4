@@ -1,0 +1,37 @@
+# $Id: compton.mac 82439 2014-06-20 10:37:29Z gcosmo $
+#
+# Macro file for "XRayInt.cc"
+# (can be run in batch, without graphic)
+#
+# photon 50 keV; compton + photoelectric
+#
+/control/verbose 2
+/run/verbose 2
+#
+/xrayint/det/setMat Germanium
+#
+/xrayint/phys/addPhysics livermore
+#
+/run/initialize
+#
+/run/setCut 1 nm
+#
+/process/activate phot
+/process/inactivate conv
+
+#
+/gun/particle gamma
+/gun/energy 50 keV
+#
+/analysis/setFileName InputG4Mac/ComptonPhoto/Output/compton-photo-50keV
+/analysis/h1/set 1  5000 0. 500. keV	#energy  of beam (monochromatic for now)
+/analysis/h1/set 2  5000 0. 500. keV	#energy of primary at the end of the step (i.e imediately before scattering or absorption)
+/analysis/h1/set 3  200 -1. +1. none	#costeta of scattered primary
+/analysis/h1/set 4  5000 0. 500. keV	#energy  of charged secondary  (electron)
+/analysis/h1/set 5  200 -1. +1. none	#costheta  of charged secondary 
+/analysis/h1/set 6  5000 0. 500. keV	#energy  of neutral secondary
+/analysis/h1/set 7  200 -1 +1 none	#costheta  of neutral secondary  
+/analysis/h1/set 8  1000 -1. +20. cm	#step length (for x-section calculation)
+
+#generate 10k events
+/run/beamOn 10000
