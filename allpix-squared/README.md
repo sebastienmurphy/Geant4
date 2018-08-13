@@ -15,7 +15,7 @@ The number of carriers created at each photon interaction is written out on the 
 
 requires ROOT and Geant4 installed
 
-$ git clone https://gitlab.ethz.ch/G-Ray/Allpix-squared.git
+$ git clone https://github.com/sebastienmurphy/Geant4/Allpix-squared.git
 
 $ cd Allpix-squared
 
