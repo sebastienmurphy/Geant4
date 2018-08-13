@@ -1,0 +1,8 @@
+{ decls }
+namespace corryvreckan {  }
+
+[ libCorryvreckanObjects.dylib ]
+# List of selected classes
+class corryvreckan::MCParticle
+class corryvreckan::Object
+class corryvreckan::Pixel

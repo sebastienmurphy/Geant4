@@ -1,0 +1,19 @@
+Checks : '-*,
+          boost-*,
+          mpi-*,
+          performance-*,
+          google-*,-google-readability-todo,-google-build-using-namespace,-google-readability-namespace-comments,-google-runtime-references,-google-runtime-int,
+          readability-*,-readability-named-parameter,-readability-inconsistent-declaration-parameter-name,-readability-avoid-const-params-in-decls,-readability-simplify-boolean-expr,-readability-redundant-declaration,
+          llvm-*,-llvm-include-order,-llvm-header-guard,-llvm-namespace-comment,
+          modernize-*,-modernize-raw-string-literal,
+          cppcoreguidelines-*,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-pro-type-vararg,-cppcoreguidelines-pro-type-member-init,-cppcoreguidelines-special-member-functions,-cppcoreguidelines-pro-type-static-cast-downcast,-cppcoreguidelines-pro-bounds-constant-array-index,
+          cert-*,-cert-err58-cpp,-cert-err34-c,
+          misc-*,-misc-noexcept-move-constructor,
+          clang-analyzer-*,-clang-analyzer-alpha*,-clang-analyzer-core*,-clang-analyzer-cplusplus*'
+WarningsAsErrors: '*'
+HeaderFilterRegex: '*.h *.hpp'
+CheckOptions:
+  - { key: readability-identifier-naming.NamespaceCase,       value: lower_case }
+  - { key: readability-identifier-naming.ClassCase,           value: CamelCase  }
+  - { key: readability-identifier-naming.StructCase,          value: lower_case  }
+  - { key: readability-identifier-naming.PublicMethodCase,    value: camelBack  }

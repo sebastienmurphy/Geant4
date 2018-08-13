@@ -1,0 +1,1477 @@
+The system is: Darwin - 17.7.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65891/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_65891.dir/build.make CMakeFiles/cmTC_65891.dir/build
+Building CXX object CMakeFiles/cmTC_65891.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_65891.dir/testCXXCompiler.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_65891
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65891.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_65891.dir/testCXXCompiler.cxx.o  -o cmTC_65891 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddc76/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ddc76.dir/build.make CMakeFiles/cmTC_ddc76.dir/build
+Building CXX object CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ddc76
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc76.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ddc76  
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ddc76 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-351.8
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ddc76/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ddc76.dir/build.make CMakeFiles/cmTC_ddc76.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ddc76]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc76.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ddc76  ]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.2)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ddc76 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ddc76] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ddc76.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [to_library;c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd0b6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd0b6.dir/build.make CMakeFiles/cmTC_fd0b6.dir/build
+Building CXX object CMakeFiles/cmTC_fd0b6.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_fd0b6.dir/feature_tests.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fd0b6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0b6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd0b6.dir/feature_tests.cxx.o  -o cmTC_fd0b6 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6dea/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6dea.dir/build.make CMakeFiles/cmTC_c6dea.dir/build
+Building CXX object CMakeFiles/cmTC_c6dea.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c6dea.dir/feature_tests.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6dea
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6dea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6dea.dir/feature_tests.cxx.o  -o cmTC_c6dea 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df2b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df2b7.dir/build.make CMakeFiles/cmTC_df2b7.dir/build
+Building CXX object CMakeFiles/cmTC_df2b7.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_df2b7.dir/feature_tests.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_df2b7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df2b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df2b7.dir/feature_tests.cxx.o  -o cmTC_df2b7 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5ee7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c5ee7.dir/build.make CMakeFiles/cmTC_c5ee7.dir/build
+Building CXX object CMakeFiles/cmTC_c5ee7.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_c5ee7.dir/CheckIncludeFile.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c5ee7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5ee7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5ee7.dir/CheckIncludeFile.cxx.o  -o cmTC_c5ee7 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d84b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d84b7.dir/build.make CMakeFiles/cmTC_d84b7.dir/build
+Building CXX object CMakeFiles/cmTC_d84b7.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_d84b7.dir/CheckSymbolExists.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d84b7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d84b7.dir/CheckSymbolExists.cxx.o  -o cmTC_d84b7 
+
+File /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__pedantic succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adda6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_adda6.dir/build.make CMakeFiles/cmTC_adda6.dir/build
+Building CXX object CMakeFiles/cmTC_adda6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DCXX_FLAG_WORKS__pedantic   -pedantic -o CMakeFiles/cmTC_adda6.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_adda6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adda6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCXX_FLAG_WORKS__pedantic -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_adda6.dir/src.cxx.o  -o cmTC_adda6 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wall succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cdaa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2cdaa.dir/build.make CMakeFiles/cmTC_2cdaa.dir/build
+Building CXX object CMakeFiles/cmTC_2cdaa.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic  -DCXX_FLAG_WORKS__Wall   -Wall -o CMakeFiles/cmTC_2cdaa.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2cdaa
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cdaa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -pedantic  -DCXX_FLAG_WORKS__Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2cdaa.dir/src.cxx.o  -o cmTC_2cdaa 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wextra succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec1c2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec1c2.dir/build.make CMakeFiles/cmTC_ec1c2.dir/build
+Building CXX object CMakeFiles/cmTC_ec1c2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra   -Wextra -o CMakeFiles/cmTC_ec1c2.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec1c2
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec1c2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec1c2.dir/src.cxx.o  -o cmTC_ec1c2 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_align succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f25a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f25a6.dir/build.make CMakeFiles/cmTC_f25a6.dir/build
+Building CXX object CMakeFiles/cmTC_f25a6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align   -Wcast-align -o CMakeFiles/cmTC_f25a6.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f25a6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f25a6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f25a6.dir/src.cxx.o  -o cmTC_f25a6 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_qual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d416/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3d416.dir/build.make CMakeFiles/cmTC_3d416.dir/build
+Building CXX object CMakeFiles/cmTC_3d416.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual   -Wcast-qual -o CMakeFiles/cmTC_3d416.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d416
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d416.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d416.dir/src.cxx.o  -o cmTC_3d416 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wconversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3250e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3250e.dir/build.make CMakeFiles/cmTC_3250e.dir/build
+Building CXX object CMakeFiles/cmTC_3250e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion   -Wconversion -o CMakeFiles/cmTC_3250e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3250e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3250e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3250e.dir/src.cxx.o  -o cmTC_3250e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wctor_dtor_privacy succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76026/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_76026.dir/build.make CMakeFiles/cmTC_76026.dir/build
+Building CXX object CMakeFiles/cmTC_76026.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy   -Wctor-dtor-privacy -o CMakeFiles/cmTC_76026.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76026
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76026.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76026.dir/src.cxx.o  -o cmTC_76026 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wzero_as_null_pointer_constant succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ea1b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ea1b.dir/build.make CMakeFiles/cmTC_2ea1b.dir/build
+Building CXX object CMakeFiles/cmTC_2ea1b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant   -Wzero-as-null-pointer-constant -o CMakeFiles/cmTC_2ea1b.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ea1b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea1b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ea1b.dir/src.cxx.o  -o cmTC_2ea1b 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdisabled_optimization succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ac73/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6ac73.dir/build.make CMakeFiles/cmTC_6ac73.dir/build
+Building CXX object CMakeFiles/cmTC_6ac73.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization   -Wdisabled-optimization -o CMakeFiles/cmTC_6ac73.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6ac73
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6ac73.dir/src.cxx.o  -o cmTC_6ac73 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__WformatE2 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_060b2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_060b2.dir/build.make CMakeFiles/cmTC_060b2.dir/build
+Building CXX object CMakeFiles/cmTC_060b2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2   -Wformat=2 -o CMakeFiles/cmTC_060b2.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_060b2
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_060b2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_060b2.dir/src.cxx.o  -o cmTC_060b2 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Winit_self succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_857ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_857ab.dir/build.make CMakeFiles/cmTC_857ab.dir/build
+Building CXX object CMakeFiles/cmTC_857ab.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self   -Winit-self -o CMakeFiles/cmTC_857ab.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_857ab
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_857ab.dir/src.cxx.o  -o cmTC_857ab 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_declarations succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18468/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18468.dir/build.make CMakeFiles/cmTC_18468.dir/build
+Building CXX object CMakeFiles/cmTC_18468.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations   -Wmissing-declarations -o CMakeFiles/cmTC_18468.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18468
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18468.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18468.dir/src.cxx.o  -o cmTC_18468 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_include_dirs succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcbad/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dcbad.dir/build.make CMakeFiles/cmTC_dcbad.dir/build
+Building CXX object CMakeFiles/cmTC_dcbad.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs   -Wmissing-include-dirs -o CMakeFiles/cmTC_dcbad.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dcbad
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbad.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dcbad.dir/src.cxx.o  -o cmTC_dcbad 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wold_style_cast succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e80d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e80d.dir/build.make CMakeFiles/cmTC_6e80d.dir/build
+Building CXX object CMakeFiles/cmTC_6e80d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast   -Wold-style-cast -o CMakeFiles/cmTC_6e80d.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6e80d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e80d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e80d.dir/src.cxx.o  -o cmTC_6e80d 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Woverloaded_virtual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46bbe/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46bbe.dir/build.make CMakeFiles/cmTC_46bbe.dir/build
+Building CXX object CMakeFiles/cmTC_46bbe.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual   -Woverloaded-virtual -o CMakeFiles/cmTC_46bbe.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46bbe
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bbe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46bbe.dir/src.cxx.o  -o cmTC_46bbe 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wredundant_decls succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5343/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5343.dir/build.make CMakeFiles/cmTC_e5343.dir/build
+Building CXX object CMakeFiles/cmTC_e5343.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls   -Wredundant-decls -o CMakeFiles/cmTC_e5343.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e5343
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5343.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5343.dir/src.cxx.o  -o cmTC_e5343 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_conversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dec24/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dec24.dir/build.make CMakeFiles/cmTC_dec24.dir/build
+Building CXX object CMakeFiles/cmTC_dec24.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion   -Wsign-conversion -o CMakeFiles/cmTC_dec24.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dec24
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec24.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dec24.dir/src.cxx.o  -o cmTC_dec24 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_promo succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6a0e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6a0e.dir/build.make CMakeFiles/cmTC_c6a0e.dir/build
+Building CXX object CMakeFiles/cmTC_c6a0e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo   -Wsign-promo -o CMakeFiles/cmTC_c6a0e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c6a0e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a0e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6a0e.dir/src.cxx.o  -o cmTC_c6a0e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_overflowE5 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b6a0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b6a0.dir/build.make CMakeFiles/cmTC_4b6a0.dir/build
+Building CXX object CMakeFiles/cmTC_4b6a0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5   -Wstrict-overflow=5 -o CMakeFiles/cmTC_4b6a0.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b6a0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b6a0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4b6a0.dir/src.cxx.o  -o cmTC_4b6a0 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wswitch_default succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91477/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_91477.dir/build.make CMakeFiles/cmTC_91477.dir/build
+Building CXX object CMakeFiles/cmTC_91477.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default   -Wswitch-default -o CMakeFiles/cmTC_91477.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91477
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91477.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91477.dir/src.cxx.o  -o cmTC_91477 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wundef succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e32d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e32d.dir/build.make CMakeFiles/cmTC_9e32d.dir/build
+Building CXX object CMakeFiles/cmTC_9e32d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef   -Wundef -o CMakeFiles/cmTC_9e32d.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9e32d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e32d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e32d.dir/src.cxx.o  -o cmTC_9e32d 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Werror succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb890/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bb890.dir/build.make CMakeFiles/cmTC_bb890.dir/build
+Building CXX object CMakeFiles/cmTC_bb890.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror   -Werror -o CMakeFiles/cmTC_bb890.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb890
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb890.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bb890.dir/src.cxx.o  -o cmTC_bb890 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wshadow succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e69c1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e69c1.dir/build.make CMakeFiles/cmTC_e69c1.dir/build
+Building CXX object CMakeFiles/cmTC_e69c1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow   -Wshadow -o CMakeFiles/cmTC_e69c1.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e69c1
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e69c1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e69c1.dir/src.cxx.o  -o cmTC_e69c1 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wformat_security succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71321/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_71321.dir/build.make CMakeFiles/cmTC_71321.dir/build
+Building CXX object CMakeFiles/cmTC_71321.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security   -Wformat-security -o CMakeFiles/cmTC_71321.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_71321
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71321.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71321.dir/src.cxx.o  -o cmTC_71321 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdeprecated succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e019f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e019f.dir/build.make CMakeFiles/cmTC_e019f.dir/build
+Building CXX object CMakeFiles/cmTC_e019f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated   -Wdeprecated -o CMakeFiles/cmTC_e019f.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e019f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e019f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e019f.dir/src.cxx.o  -o cmTC_e019f 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__fdiagnostics_colorEauto succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d530/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2d530.dir/build.make CMakeFiles/cmTC_2d530.dir/build
+Building CXX object CMakeFiles/cmTC_2d530.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto   -fdiagnostics-color=auto -o CMakeFiles/cmTC_2d530.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d530
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d530.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2d530.dir/src.cxx.o  -o cmTC_2d530 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wheader_hygiene succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6441/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b6441.dir/build.make CMakeFiles/cmTC_b6441.dir/build
+Building CXX object CMakeFiles/cmTC_b6441.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene   -Wheader-hygiene -o CMakeFiles/cmTC_b6441.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6441
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6441.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6441.dir/src.cxx.o  -o cmTC_b6441 
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b87f6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b87f6.dir/build.make CMakeFiles/cmTC_b87f6.dir/build
+Building CXX object CMakeFiles/cmTC_b87f6.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_b87f6.dir/CheckIncludeFile.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b87f6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b87f6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b87f6.dir/CheckIncludeFile.cxx.o  -o cmTC_b87f6 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_696a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_696a4.dir/build.make CMakeFiles/cmTC_696a4.dir/build
+Building CXX object CMakeFiles/cmTC_696a4.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_696a4.dir/CheckSymbolExists.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_696a4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_696a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_696a4.dir/CheckSymbolExists.cxx.o  -o cmTC_696a4 
+
+File /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__pedantic succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8ffb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b8ffb.dir/build.make CMakeFiles/cmTC_b8ffb.dir/build
+Building CXX object CMakeFiles/cmTC_b8ffb.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DCXX_FLAG_WORKS__pedantic   -pedantic -o CMakeFiles/cmTC_b8ffb.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8ffb
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ffb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCXX_FLAG_WORKS__pedantic -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8ffb.dir/src.cxx.o  -o cmTC_b8ffb 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wall succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9d65/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9d65.dir/build.make CMakeFiles/cmTC_a9d65.dir/build
+Building CXX object CMakeFiles/cmTC_a9d65.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic  -DCXX_FLAG_WORKS__Wall   -Wall -o CMakeFiles/cmTC_a9d65.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a9d65
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9d65.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -pedantic  -DCXX_FLAG_WORKS__Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9d65.dir/src.cxx.o  -o cmTC_a9d65 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wextra succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e5b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e5b7.dir/build.make CMakeFiles/cmTC_9e5b7.dir/build
+Building CXX object CMakeFiles/cmTC_9e5b7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra   -Wextra -o CMakeFiles/cmTC_9e5b7.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9e5b7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e5b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e5b7.dir/src.cxx.o  -o cmTC_9e5b7 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_align succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8edbc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8edbc.dir/build.make CMakeFiles/cmTC_8edbc.dir/build
+Building CXX object CMakeFiles/cmTC_8edbc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align   -Wcast-align -o CMakeFiles/cmTC_8edbc.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8edbc
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8edbc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8edbc.dir/src.cxx.o  -o cmTC_8edbc 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_qual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_147e0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_147e0.dir/build.make CMakeFiles/cmTC_147e0.dir/build
+Building CXX object CMakeFiles/cmTC_147e0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual   -Wcast-qual -o CMakeFiles/cmTC_147e0.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_147e0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_147e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_147e0.dir/src.cxx.o  -o cmTC_147e0 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wconversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a057f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a057f.dir/build.make CMakeFiles/cmTC_a057f.dir/build
+Building CXX object CMakeFiles/cmTC_a057f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion   -Wconversion -o CMakeFiles/cmTC_a057f.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a057f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a057f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a057f.dir/src.cxx.o  -o cmTC_a057f 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wctor_dtor_privacy succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49238/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49238.dir/build.make CMakeFiles/cmTC_49238.dir/build
+Building CXX object CMakeFiles/cmTC_49238.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy   -Wctor-dtor-privacy -o CMakeFiles/cmTC_49238.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49238
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49238.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_49238.dir/src.cxx.o  -o cmTC_49238 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wzero_as_null_pointer_constant succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d42cf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d42cf.dir/build.make CMakeFiles/cmTC_d42cf.dir/build
+Building CXX object CMakeFiles/cmTC_d42cf.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant   -Wzero-as-null-pointer-constant -o CMakeFiles/cmTC_d42cf.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d42cf
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d42cf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d42cf.dir/src.cxx.o  -o cmTC_d42cf 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdisabled_optimization succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34a0f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_34a0f.dir/build.make CMakeFiles/cmTC_34a0f.dir/build
+Building CXX object CMakeFiles/cmTC_34a0f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization   -Wdisabled-optimization -o CMakeFiles/cmTC_34a0f.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34a0f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a0f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_34a0f.dir/src.cxx.o  -o cmTC_34a0f 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__WformatE2 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7619/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7619.dir/build.make CMakeFiles/cmTC_c7619.dir/build
+Building CXX object CMakeFiles/cmTC_c7619.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2   -Wformat=2 -o CMakeFiles/cmTC_c7619.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7619
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7619.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7619.dir/src.cxx.o  -o cmTC_c7619 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Winit_self succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_415e1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_415e1.dir/build.make CMakeFiles/cmTC_415e1.dir/build
+Building CXX object CMakeFiles/cmTC_415e1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self   -Winit-self -o CMakeFiles/cmTC_415e1.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_415e1
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_415e1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_415e1.dir/src.cxx.o  -o cmTC_415e1 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_declarations succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44177/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44177.dir/build.make CMakeFiles/cmTC_44177.dir/build
+Building CXX object CMakeFiles/cmTC_44177.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations   -Wmissing-declarations -o CMakeFiles/cmTC_44177.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_44177
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44177.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44177.dir/src.cxx.o  -o cmTC_44177 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_include_dirs succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b649/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1b649.dir/build.make CMakeFiles/cmTC_1b649.dir/build
+Building CXX object CMakeFiles/cmTC_1b649.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs   -Wmissing-include-dirs -o CMakeFiles/cmTC_1b649.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b649
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b649.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b649.dir/src.cxx.o  -o cmTC_1b649 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wold_style_cast succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1a42/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1a42.dir/build.make CMakeFiles/cmTC_d1a42.dir/build
+Building CXX object CMakeFiles/cmTC_d1a42.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast   -Wold-style-cast -o CMakeFiles/cmTC_d1a42.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1a42
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1a42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1a42.dir/src.cxx.o  -o cmTC_d1a42 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Woverloaded_virtual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca3ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca3ab.dir/build.make CMakeFiles/cmTC_ca3ab.dir/build
+Building CXX object CMakeFiles/cmTC_ca3ab.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual   -Woverloaded-virtual -o CMakeFiles/cmTC_ca3ab.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca3ab
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ca3ab.dir/src.cxx.o  -o cmTC_ca3ab 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wredundant_decls succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b91d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b91d.dir/build.make CMakeFiles/cmTC_3b91d.dir/build
+Building CXX object CMakeFiles/cmTC_3b91d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls   -Wredundant-decls -o CMakeFiles/cmTC_3b91d.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3b91d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b91d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b91d.dir/src.cxx.o  -o cmTC_3b91d 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_conversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82537/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_82537.dir/build.make CMakeFiles/cmTC_82537.dir/build
+Building CXX object CMakeFiles/cmTC_82537.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion   -Wsign-conversion -o CMakeFiles/cmTC_82537.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_82537
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82537.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_82537.dir/src.cxx.o  -o cmTC_82537 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_promo succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb512/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb512.dir/build.make CMakeFiles/cmTC_cb512.dir/build
+Building CXX object CMakeFiles/cmTC_cb512.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo   -Wsign-promo -o CMakeFiles/cmTC_cb512.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb512
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb512.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb512.dir/src.cxx.o  -o cmTC_cb512 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_overflowE5 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed57a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ed57a.dir/build.make CMakeFiles/cmTC_ed57a.dir/build
+Building CXX object CMakeFiles/cmTC_ed57a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5   -Wstrict-overflow=5 -o CMakeFiles/cmTC_ed57a.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ed57a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed57a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed57a.dir/src.cxx.o  -o cmTC_ed57a 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wswitch_default succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2a43/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2a43.dir/build.make CMakeFiles/cmTC_b2a43.dir/build
+Building CXX object CMakeFiles/cmTC_b2a43.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default   -Wswitch-default -o CMakeFiles/cmTC_b2a43.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b2a43
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a43.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b2a43.dir/src.cxx.o  -o cmTC_b2a43 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wundef succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f12b5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f12b5.dir/build.make CMakeFiles/cmTC_f12b5.dir/build
+Building CXX object CMakeFiles/cmTC_f12b5.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef   -Wundef -o CMakeFiles/cmTC_f12b5.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f12b5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f12b5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f12b5.dir/src.cxx.o  -o cmTC_f12b5 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Werror succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c494/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5c494.dir/build.make CMakeFiles/cmTC_5c494.dir/build
+Building CXX object CMakeFiles/cmTC_5c494.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror   -Werror -o CMakeFiles/cmTC_5c494.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5c494
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c494.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c494.dir/src.cxx.o  -o cmTC_5c494 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wshadow succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_231db/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_231db.dir/build.make CMakeFiles/cmTC_231db.dir/build
+Building CXX object CMakeFiles/cmTC_231db.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow   -Wshadow -o CMakeFiles/cmTC_231db.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_231db
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_231db.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_231db.dir/src.cxx.o  -o cmTC_231db 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wformat_security succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4032/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4032.dir/build.make CMakeFiles/cmTC_c4032.dir/build
+Building CXX object CMakeFiles/cmTC_c4032.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security   -Wformat-security -o CMakeFiles/cmTC_c4032.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4032
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4032.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4032.dir/src.cxx.o  -o cmTC_c4032 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdeprecated succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3170/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d3170.dir/build.make CMakeFiles/cmTC_d3170.dir/build
+Building CXX object CMakeFiles/cmTC_d3170.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated   -Wdeprecated -o CMakeFiles/cmTC_d3170.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d3170
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3170.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d3170.dir/src.cxx.o  -o cmTC_d3170 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__fdiagnostics_colorEauto succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da79e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da79e.dir/build.make CMakeFiles/cmTC_da79e.dir/build
+Building CXX object CMakeFiles/cmTC_da79e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto   -fdiagnostics-color=auto -o CMakeFiles/cmTC_da79e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_da79e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da79e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da79e.dir/src.cxx.o  -o cmTC_da79e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wheader_hygiene succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8bdd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a8bdd.dir/build.make CMakeFiles/cmTC_a8bdd.dir/build
+Building CXX object CMakeFiles/cmTC_a8bdd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene   -Wheader-hygiene -o CMakeFiles/cmTC_a8bdd.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a8bdd
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8bdd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8bdd.dir/src.cxx.o  -o cmTC_a8bdd 
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d42a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d42a4.dir/build.make CMakeFiles/cmTC_d42a4.dir/build
+Building CXX object CMakeFiles/cmTC_d42a4.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_d42a4.dir/CheckIncludeFile.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d42a4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d42a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d42a4.dir/CheckIncludeFile.cxx.o  -o cmTC_d42a4 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4652/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e4652.dir/build.make CMakeFiles/cmTC_e4652.dir/build
+Building CXX object CMakeFiles/cmTC_e4652.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_e4652.dir/CheckSymbolExists.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e4652
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4652.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e4652.dir/CheckSymbolExists.cxx.o  -o cmTC_e4652 
+
+File /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__pedantic succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8c99/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f8c99.dir/build.make CMakeFiles/cmTC_f8c99.dir/build
+Building CXX object CMakeFiles/cmTC_f8c99.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DCXX_FLAG_WORKS__pedantic   -pedantic -o CMakeFiles/cmTC_f8c99.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8c99
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8c99.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCXX_FLAG_WORKS__pedantic -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8c99.dir/src.cxx.o  -o cmTC_f8c99 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wall succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8d9e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b8d9e.dir/build.make CMakeFiles/cmTC_b8d9e.dir/build
+Building CXX object CMakeFiles/cmTC_b8d9e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic  -DCXX_FLAG_WORKS__Wall   -Wall -o CMakeFiles/cmTC_b8d9e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8d9e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8d9e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -pedantic  -DCXX_FLAG_WORKS__Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8d9e.dir/src.cxx.o  -o cmTC_b8d9e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wextra succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c383/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4c383.dir/build.make CMakeFiles/cmTC_4c383.dir/build
+Building CXX object CMakeFiles/cmTC_4c383.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra   -Wextra -o CMakeFiles/cmTC_4c383.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4c383
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c383.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -pedantic  -DCXX_FLAG_WORKS__Wextra -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4c383.dir/src.cxx.o  -o cmTC_4c383 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_align succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9144c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9144c.dir/build.make CMakeFiles/cmTC_9144c.dir/build
+Building CXX object CMakeFiles/cmTC_9144c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align   -Wcast-align -o CMakeFiles/cmTC_9144c.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9144c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9144c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_align -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9144c.dir/src.cxx.o  -o cmTC_9144c 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wcast_qual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6707b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6707b.dir/build.make CMakeFiles/cmTC_6707b.dir/build
+Building CXX object CMakeFiles/cmTC_6707b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual   -Wcast-qual -o CMakeFiles/cmTC_6707b.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6707b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6707b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wcast_qual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6707b.dir/src.cxx.o  -o cmTC_6707b 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wconversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4920f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4920f.dir/build.make CMakeFiles/cmTC_4920f.dir/build
+Building CXX object CMakeFiles/cmTC_4920f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion   -Wconversion -o CMakeFiles/cmTC_4920f.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4920f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4920f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wconversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4920f.dir/src.cxx.o  -o cmTC_4920f 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wctor_dtor_privacy succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c42aa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c42aa.dir/build.make CMakeFiles/cmTC_c42aa.dir/build
+Building CXX object CMakeFiles/cmTC_c42aa.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy   -Wctor-dtor-privacy -o CMakeFiles/cmTC_c42aa.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c42aa
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c42aa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wctor_dtor_privacy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c42aa.dir/src.cxx.o  -o cmTC_c42aa 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wzero_as_null_pointer_constant succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a89d5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a89d5.dir/build.make CMakeFiles/cmTC_a89d5.dir/build
+Building CXX object CMakeFiles/cmTC_a89d5.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant   -Wzero-as-null-pointer-constant -o CMakeFiles/cmTC_a89d5.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a89d5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a89d5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wzero_as_null_pointer_constant -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a89d5.dir/src.cxx.o  -o cmTC_a89d5 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdisabled_optimization succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b602/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b602.dir/build.make CMakeFiles/cmTC_4b602.dir/build
+Building CXX object CMakeFiles/cmTC_4b602.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization   -Wdisabled-optimization -o CMakeFiles/cmTC_4b602.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b602
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b602.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdisabled_optimization -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4b602.dir/src.cxx.o  -o cmTC_4b602 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__WformatE2 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9df26/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9df26.dir/build.make CMakeFiles/cmTC_9df26.dir/build
+Building CXX object CMakeFiles/cmTC_9df26.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2   -Wformat=2 -o CMakeFiles/cmTC_9df26.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9df26
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9df26.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__WformatE2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9df26.dir/src.cxx.o  -o cmTC_9df26 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Winit_self succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cddc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4cddc.dir/build.make CMakeFiles/cmTC_4cddc.dir/build
+Building CXX object CMakeFiles/cmTC_4cddc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self   -Winit-self -o CMakeFiles/cmTC_4cddc.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4cddc
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cddc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Winit_self -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4cddc.dir/src.cxx.o  -o cmTC_4cddc 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_declarations succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0262/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f0262.dir/build.make CMakeFiles/cmTC_f0262.dir/build
+Building CXX object CMakeFiles/cmTC_f0262.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations   -Wmissing-declarations -o CMakeFiles/cmTC_f0262.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0262
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0262.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_declarations -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f0262.dir/src.cxx.o  -o cmTC_f0262 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wmissing_include_dirs succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf4c7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf4c7.dir/build.make CMakeFiles/cmTC_bf4c7.dir/build
+Building CXX object CMakeFiles/cmTC_bf4c7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs   -Wmissing-include-dirs -o CMakeFiles/cmTC_bf4c7.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf4c7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf4c7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wmissing_include_dirs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf4c7.dir/src.cxx.o  -o cmTC_bf4c7 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wold_style_cast succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d17b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9d17b.dir/build.make CMakeFiles/cmTC_9d17b.dir/build
+Building CXX object CMakeFiles/cmTC_9d17b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast   -Wold-style-cast -o CMakeFiles/cmTC_9d17b.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d17b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d17b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wold_style_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d17b.dir/src.cxx.o  -o cmTC_9d17b 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Woverloaded_virtual succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b037/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b037.dir/build.make CMakeFiles/cmTC_8b037.dir/build
+Building CXX object CMakeFiles/cmTC_8b037.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual   -Woverloaded-virtual -o CMakeFiles/cmTC_8b037.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b037
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b037.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Woverloaded_virtual -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b037.dir/src.cxx.o  -o cmTC_8b037 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wredundant_decls succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32d42/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_32d42.dir/build.make CMakeFiles/cmTC_32d42.dir/build
+Building CXX object CMakeFiles/cmTC_32d42.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls   -Wredundant-decls -o CMakeFiles/cmTC_32d42.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32d42
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32d42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wredundant_decls -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_32d42.dir/src.cxx.o  -o cmTC_32d42 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_conversion succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48f04/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48f04.dir/build.make CMakeFiles/cmTC_48f04.dir/build
+Building CXX object CMakeFiles/cmTC_48f04.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion   -Wsign-conversion -o CMakeFiles/cmTC_48f04.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48f04
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f04.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_conversion -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48f04.dir/src.cxx.o  -o cmTC_48f04 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wsign_promo succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eda56/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eda56.dir/build.make CMakeFiles/cmTC_eda56.dir/build
+Building CXX object CMakeFiles/cmTC_eda56.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo   -Wsign-promo -o CMakeFiles/cmTC_eda56.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eda56
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda56.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wsign_promo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eda56.dir/src.cxx.o  -o cmTC_eda56 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_overflowE5 succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4d32/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4d32.dir/build.make CMakeFiles/cmTC_d4d32.dir/build
+Building CXX object CMakeFiles/cmTC_d4d32.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5   -Wstrict-overflow=5 -o CMakeFiles/cmTC_d4d32.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d4d32
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d32.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_overflowE5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4d32.dir/src.cxx.o  -o cmTC_d4d32 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wswitch_default succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5624/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c5624.dir/build.make CMakeFiles/cmTC_c5624.dir/build
+Building CXX object CMakeFiles/cmTC_c5624.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default   -Wswitch-default -o CMakeFiles/cmTC_c5624.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c5624
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5624.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wswitch_default -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5624.dir/src.cxx.o  -o cmTC_c5624 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wundef succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5032e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5032e.dir/build.make CMakeFiles/cmTC_5032e.dir/build
+Building CXX object CMakeFiles/cmTC_5032e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef   -Wundef -o CMakeFiles/cmTC_5032e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5032e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5032e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wundef -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5032e.dir/src.cxx.o  -o cmTC_5032e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Werror succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4080/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4080.dir/build.make CMakeFiles/cmTC_c4080.dir/build
+Building CXX object CMakeFiles/cmTC_c4080.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror   -Werror -o CMakeFiles/cmTC_c4080.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4080
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4080.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Werror -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4080.dir/src.cxx.o  -o cmTC_c4080 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wshadow succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f20f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f20f7.dir/build.make CMakeFiles/cmTC_f20f7.dir/build
+Building CXX object CMakeFiles/cmTC_f20f7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow   -Wshadow -o CMakeFiles/cmTC_f20f7.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f20f7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f20f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wshadow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f20f7.dir/src.cxx.o  -o cmTC_f20f7 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wformat_security succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0210e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0210e.dir/build.make CMakeFiles/cmTC_0210e.dir/build
+Building CXX object CMakeFiles/cmTC_0210e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security   -Wformat-security -o CMakeFiles/cmTC_0210e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0210e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0210e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wformat_security -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0210e.dir/src.cxx.o  -o cmTC_0210e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wdeprecated succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2e41/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2e41.dir/build.make CMakeFiles/cmTC_b2e41.dir/build
+Building CXX object CMakeFiles/cmTC_b2e41.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated   -Wdeprecated -o CMakeFiles/cmTC_b2e41.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b2e41
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2e41.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wdeprecated -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b2e41.dir/src.cxx.o  -o cmTC_b2e41 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__fdiagnostics_colorEauto succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83725/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_83725.dir/build.make CMakeFiles/cmTC_83725.dir/build
+Building CXX object CMakeFiles/cmTC_83725.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto   -fdiagnostics-color=auto -o CMakeFiles/cmTC_83725.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83725
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83725.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__fdiagnostics_colorEauto -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83725.dir/src.cxx.o  -o cmTC_83725 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wheader_hygiene succeeded with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72d7d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72d7d.dir/build.make CMakeFiles/cmTC_72d7d.dir/build
+Building CXX object CMakeFiles/cmTC_72d7d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene   -Wheader-hygiene -o CMakeFiles/cmTC_72d7d.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_72d7d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72d7d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fdiagnostics-color=auto -Wdeprecated -Wformat-security -Wshadow -Werror -Wundef -Wswitch-default -Wstrict-overflow=5 -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wheader_hygiene -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72d7d.dir/src.cxx.o  -o cmTC_72d7d 
+
+Source file was:
+int main() { return 0; }

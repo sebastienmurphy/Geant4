@@ -1,0 +1,180 @@
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wuseless_cast failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c0f2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c0f2.dir/build.make CMakeFiles/cmTC_1c0f2.dir/build
+Building CXX object CMakeFiles/cmTC_1c0f2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast   -Wuseless-cast -o CMakeFiles/cmTC_1c0f2.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wuseless-cast' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_1c0f2
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0f2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c0f2.dir/src.cxx.o  -o cmTC_1c0f2 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wlogical_op failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce8ef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce8ef.dir/build.make CMakeFiles/cmTC_ce8ef.dir/build
+Building CXX object CMakeFiles/cmTC_ce8ef.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op   -Wlogical-op -o CMakeFiles/cmTC_ce8ef.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_ce8ef
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce8ef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce8ef.dir/src.cxx.o  -o cmTC_ce8ef 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wnoexcept failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a3b6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7a3b6.dir/build.make CMakeFiles/cmTC_7a3b6.dir/build
+Building CXX object CMakeFiles/cmTC_7a3b6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept   -Wnoexcept -o CMakeFiles/cmTC_7a3b6.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wnoexcept' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_7a3b6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3b6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7a3b6.dir/src.cxx.o  -o cmTC_7a3b6 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_null_sentinel failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51714/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51714.dir/build.make CMakeFiles/cmTC_51714.dir/build
+Building CXX object CMakeFiles/cmTC_51714.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel   -Wstrict-null-sentinel -o CMakeFiles/cmTC_51714.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wstrict-null-sentinel' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_51714
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51714.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51714.dir/src.cxx.o  -o cmTC_51714 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wuseless_cast failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f72c3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f72c3.dir/build.make CMakeFiles/cmTC_f72c3.dir/build
+Building CXX object CMakeFiles/cmTC_f72c3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast   -Wuseless-cast -o CMakeFiles/cmTC_f72c3.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wuseless-cast' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_f72c3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72c3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f72c3.dir/src.cxx.o  -o cmTC_f72c3 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wlogical_op failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0469/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f0469.dir/build.make CMakeFiles/cmTC_f0469.dir/build
+Building CXX object CMakeFiles/cmTC_f0469.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op   -Wlogical-op -o CMakeFiles/cmTC_f0469.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_f0469
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0469.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f0469.dir/src.cxx.o  -o cmTC_f0469 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wnoexcept failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abac3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_abac3.dir/build.make CMakeFiles/cmTC_abac3.dir/build
+Building CXX object CMakeFiles/cmTC_abac3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept   -Wnoexcept -o CMakeFiles/cmTC_abac3.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wnoexcept' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_abac3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abac3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_abac3.dir/src.cxx.o  -o cmTC_abac3 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_null_sentinel failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8672/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a8672.dir/build.make CMakeFiles/cmTC_a8672.dir/build
+Building CXX object CMakeFiles/cmTC_a8672.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel   -Wstrict-null-sentinel -o CMakeFiles/cmTC_a8672.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wstrict-null-sentinel' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_a8672
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8672.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8672.dir/src.cxx.o  -o cmTC_a8672 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wuseless_cast failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8835/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8835.dir/build.make CMakeFiles/cmTC_e8835.dir/build
+Building CXX object CMakeFiles/cmTC_e8835.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast   -Wuseless-cast -o CMakeFiles/cmTC_e8835.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wuseless-cast' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_e8835
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8835.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wuseless_cast -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8835.dir/src.cxx.o  -o cmTC_e8835 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wlogical_op failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3803e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3803e.dir/build.make CMakeFiles/cmTC_3803e.dir/build
+Building CXX object CMakeFiles/cmTC_3803e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op   -Wlogical-op -o CMakeFiles/cmTC_3803e.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_3803e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3803e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wlogical_op -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3803e.dir/src.cxx.o  -o cmTC_3803e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wnoexcept failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b61f0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b61f0.dir/build.make CMakeFiles/cmTC_b61f0.dir/build
+Building CXX object CMakeFiles/cmTC_b61f0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept   -Wnoexcept -o CMakeFiles/cmTC_b61f0.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wnoexcept' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_b61f0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b61f0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wnoexcept -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b61f0.dir/src.cxx.o  -o cmTC_b61f0 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WORKS__Wstrict_null_sentinel failed with the following output:
+Change Dir: /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f30c3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f30c3.dir/build.make CMakeFiles/cmTC_f30c3.dir/build
+Building CXX object CMakeFiles/cmTC_f30c3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel   -Wstrict-null-sentinel -o CMakeFiles/cmTC_f30c3.dir/src.cxx.o -c /Users/sebastienmurphy/Geant4/G-Ray/Dev/allpix-squared/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wstrict-null-sentinel' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_f30c3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30c3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wsign-promo -Wsign-conversion -Wredundant-decls -Woverloaded-virtual -Wold-style-cast -Wmissing-include-dirs -Wmissing-declarations -Winit-self -Wformat=2 -Wdisabled-optimization -Wzero-as-null-pointer-constant -Wctor-dtor-privacy -Wconversion -Wcast-qual -Wcast-align -Wextra -Wall -pedantic  -DCXX_FLAG_WORKS__Wstrict_null_sentinel -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f30c3.dir/src.cxx.o  -o cmTC_f30c3 
+
+Source file was:
+int main() { return 0; }

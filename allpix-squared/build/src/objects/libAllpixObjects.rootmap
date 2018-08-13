@@ -1,0 +1,27 @@
+{ decls }
+namespace std { inline namespace __1 {  } }
+namespace allpix {  }
+namespace ROOT { namespace Math {  } }
+namespace ROOT { namespace Math { template <typename T> class Cartesian2D; } }
+namespace ROOT { namespace Math { class DefaultCoordinateSystemTag; } }
+
+[ libAllpixObjects.dylib ]
+# List of selected classes
+class ROOT::Math::Cartesian2D<unsigned int>
+class ROOT::Math::DisplacementVector2D<ROOT::Math::Cartesian2D<unsigned int>,ROOT::Math::DefaultCoordinateSystemTag>
+class ROOT::Math::DisplacementVector2D<ROOT::Math::Cartesian2D<unsigned int>,\
+ROOT::Math::DefaultCoordinateSystemTag>
+class allpix::DepositedCharge
+class allpix::MCParticle
+class allpix::MCTrack
+class allpix::Object
+class allpix::Pixel
+class allpix::PixelCharge
+class allpix::PixelHit
+class allpix::PropagatedCharge
+class allpix::SensorCharge
+class vector<allpix::Object*>
+header DepositedCharge.hpp
+header MCParticle.hpp
+header MCTrack.hpp
+header Pixel.hpp

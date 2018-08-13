@@ -1,0 +1,16 @@
+1478789382|Initial commit
+1486463922|First draft of framework structure
+1493393464|First executable version v0.1
+1497453764|Version 0.2 with IO modules
+1502477224|Version 0.3 with threading and more modules
+1504010758|Stable Release: Allpix Squared v1.0
+1508511411|Extended CI with Unit Tests
+1512051313|Optional output of simulated geometry
+1515689532|Stable Release: Allpix Squared v1.1
+1518103248|Automatic CVMFS deployment
+1520947826|Automatic creation of Docker images
+1523628530|Rework of MCParticle system
+1523958029|Support for magnetic fields
+1524578480|Addition of MCTrack objects
+1528805419|Support for different particle sources
+1528888016|Stable Release: Allpix Squared v1.2
