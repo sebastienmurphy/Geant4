@@ -11,7 +11,7 @@ The absorber is Silicon, needs to be updated to Ge (can only be done in the sour
 The activation/de-activion of the visulation is performed at the end of the example_latenium.conf file (self-explanatory in the file)
 The number of carriers created at each photon interaction is written out on the terminal
 
-![alt text](Allpix-screenshot.png)
+![alt text](Allpix-latenium.png)
 
 requires ROOT and Geant4 installed
 
